@@ -11,7 +11,9 @@ from datetime import datetime
 
 import pymongo
 
-from themis import smessage, scell
+from themis import smessage, scell       #mac version with local themis in ./themis (link .dyld libraries)
+#from pythemis import smessage, scell    #crossplatform version with installed PyThemis package dependency
+
 
 file_db_keys = 'lstore.txt'
 
