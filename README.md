@@ -10,8 +10,8 @@ It contains:
 ### Usage
 
 1. Clone project.
-2. Follow guide from `ios-project/README.md` to build and run iOS project (xcode needed).
-3. Follow guide from `server/README.txt` to run python server on your local machine (python needed).
+2. Follow guide from [`ios-project/README.md`](https://github.com/cossacklabs/themis-ux-testing/blob/master/ios-project/README.md) to build and run iOS project (xcode needed).
+3. Follow guide from [`server/README.md`](https://github.com/cossacklabs/themis-ux-testing/blob/master/server/README.md) to run python server on your local machine (python needed).
 4. Send messages from iOS device and look how they appear inside db.
 
 ### How it works?
