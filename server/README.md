@@ -1,4 +1,4 @@
-Linux: 
+###Linux: 
 
 1. Bootstrap your python environment and install system packages: 
 
@@ -22,11 +22,11 @@ Linux:
    2. Uncomment line with 'from pythemis import ...', it will use system-installed PyThemis.
 
 
-Mac OS X: 
+###Mac OS X: 
 
-Since installing PyThemis on Mac OS X is a process with more moving parts, we've outlined it for iOS developers wanting to launch the server to test XCode project in greater depth: 
+*Since installing PyThemis on Mac OS X is a process with more moving parts, we've outlined it for iOS developers wanting to launch the server to test XCode project in greater depth:*
 
-0. We use homebrew for packages. If you'd like macports, refer to your macports documentation for syntax. 
+0. We use [homebrew](http://brew.sh/) for packages. If you'd like macports, refer to your macports documentation for syntax. 
 1. We assume you have python installed since you're on legitimate mac. 
 2. Install mongodb, if you don't have one
 
