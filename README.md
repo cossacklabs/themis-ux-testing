@@ -5,7 +5,7 @@ This is example project for first Themis hackaton.
 It contains:
 
 - iOS project that sends enrypted messages to server
-- python server that responds on those messages
+- python server that responds on those messages which works on OSX and Linux.
 
 ### Usage
 
@@ -20,12 +20,10 @@ Read more details (with pictures!) in our blog post.
 
 *TODO: URL needed*
 
-You will find info about hackaton itself, problems we faced and results we achieved.
+You will find a report about hackathon itself, problems we faced and results we achieved.
 
 ### Who we are?
 
-We are cool guys from CossackLabs, we have created awesome multiplatform library for secure messaging. 
+We are engineers from Cossacklabs, authors of Themis (github.com/cossacklabs/themis), great cross-platform secure messaging and data storage library.
 
-Say hello to us
-
-http://cossacklabs.com/
+Say hello to us: http://cossacklabs.com/
