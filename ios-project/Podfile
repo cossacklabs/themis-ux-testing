@@ -1,12 +1,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '7.0'
-xcodeproj 'ThemisTest/ThemisTest.xcodeproj'
+xcodeproj 'ThemisUXTestExample/ThemisUXTestExample.xcodeproj'
 inhibit_all_warnings!
 
-target :"ThemisTest" do
+target :"ThemisUXTestExample" do
 
-  pod 'themis'
+  pod 'themis', '0.9'
 
   # stanfy
   pod 'SFCoreUtils', :git => 'https://github.com/stanfy/SFCoreUtils.git', :tag => '0.1.10'

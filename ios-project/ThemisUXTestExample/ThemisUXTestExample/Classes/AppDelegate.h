@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  ThemisTest
+//  ThemisUXTestExample
 //
 //  Created by Vixentael on 13.04.15.
 //  Copyright (c) 2015 Cossack Labs. All rights reserved.

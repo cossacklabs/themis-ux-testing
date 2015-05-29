@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C5C06F6E-53E9-4281-B217-270DC1EA3AAD</string>
+	<string>B8AB7547-8D48-4534-9127-79B75D92B5AB</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ThemisTest</string>
+	<string>ThemisUXTestExample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3EB9EDE2946147E9BDB4298F54BE844DEA1644A2</key>
-		<string>https://ph.cossacklabs.com/diffusion/IOSPRJ/example-ios-project.git</string>
+		<key>CF7127BDCC8938301B9587E477E4AC76619C6AA9</key>
+		<string>https://github.com/cossacklabs/themis-ux-testing.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ThemisTest.xcworkspace</string>
+	<string>ios-project/ThemisUXTestExample.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3EB9EDE2946147E9BDB4298F54BE844DEA1644A2</key>
-		<string>..</string>
+		<key>CF7127BDCC8938301B9587E477E4AC76619C6AA9</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://ph.cossacklabs.com/diffusion/IOSPRJ/example-ios-project.git</string>
+	<string>https://github.com/cossacklabs/themis-ux-testing.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3EB9EDE2946147E9BDB4298F54BE844DEA1644A2</string>
+	<string>CF7127BDCC8938301B9587E477E4AC76619C6AA9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3EB9EDE2946147E9BDB4298F54BE844DEA1644A2</string>
+			<string>CF7127BDCC8938301B9587E477E4AC76619C6AA9</string>
 			<key>IDESourceControlWCCName</key>
-			<string>ios-project</string>
+			<string>ux-hackaton</string>
 		</dict>
 	</array>
 </dict>

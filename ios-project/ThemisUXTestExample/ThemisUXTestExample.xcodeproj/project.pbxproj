@@ -19,8 +19,8 @@
 		73156E141ADBDF0800E3E520 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73156E0E1ADBDF0800E3E520 /* AppDelegate.m */; };
 		73156E171ADBDF0F00E3E520 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73156E161ADBDF0F00E3E520 /* Images.xcassets */; };
 		731624981ADB174200972A7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 731624971ADB174200972A7A /* main.m */; };
-		731624B21ADB174200972A7A /* ThemisTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731624B11ADB174200972A7A /* ThemisTestTests.m */; };
-		750CC86FCEF6BEEA1BF8E421 /* libPods-ThemisTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB1E0091D5E4396D03A8C58 /* libPods-ThemisTest.a */; };
+		731624B21ADB174200972A7A /* ThemisUXTestExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731624B11ADB174200972A7A /* ThemisUXTestExampleTests.m */; };
+		BF3371DC52C4BE1084EE9B09 /* libPods-ThemisUXTestExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 617D61DEDC4B17BA4C1C05E7 /* libPods-ThemisUXTestExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,18 +46,21 @@
 		192EAEE7A8A8277025A0F60C /* client.priv */ = {isa = PBXFileReference; lastKnownFileType = file.priv; path = client.priv; sourceTree = "<group>"; };
 		192EAF075A6634F94E41BBEA /* TTServerMessaging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTServerMessaging.h; sourceTree = "<group>"; };
 		21894E1C534D589E41F1D62F /* Pods-ThemisTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemisTest.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ThemisTest/Pods-ThemisTest.debug.xcconfig"; sourceTree = "<group>"; };
+		617D61DEDC4B17BA4C1C05E7 /* libPods-ThemisUXTestExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThemisUXTestExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F656D4EE3AF90D651D5E4BC /* Pods-ThemisUXTestExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemisUXTestExample.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ThemisUXTestExample/Pods-ThemisUXTestExample.release.xcconfig"; sourceTree = "<group>"; };
 		73156E031ADBDE7900E3E520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		73156E051ADBDE7900E3E520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		73156E0D1ADBDF0800E3E520 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		73156E0E1ADBDF0800E3E520 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		73156E161ADBDF0F00E3E520 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		731624921ADB174200972A7A /* ThemisTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemisTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		731624921ADB174200972A7A /* ThemisUXTestExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemisUXTestExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		731624961ADB174200972A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		731624971ADB174200972A7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		731624AB1ADB174200972A7A /* ThemisTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemisTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		731624AB1ADB174200972A7A /* ThemisUXTestExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemisUXTestExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		731624B01ADB174200972A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		731624B11ADB174200972A7A /* ThemisTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemisTestTests.m; sourceTree = "<group>"; };
+		731624B11ADB174200972A7A /* ThemisUXTestExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemisUXTestExampleTests.m; sourceTree = "<group>"; };
 		738D1E7F1ADBBEBB00661F4A /* libobjcthemis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libobjcthemis.a; path = ../themis/objcthemis/ios/lib/libobjcthemis.a; sourceTree = "<group>"; };
+		766E5FE35740241E7A61EA31 /* Pods-ThemisUXTestExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThemisUXTestExample.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ThemisUXTestExample/Pods-ThemisUXTestExample.debug.xcconfig"; sourceTree = "<group>"; };
 		7CB1E0091D5E4396D03A8C58 /* libPods-ThemisTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThemisTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -66,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				750CC86FCEF6BEEA1BF8E421 /* libPods-ThemisTest.a in Frameworks */,
+				BF3371DC52C4BE1084EE9B09 /* libPods-ThemisUXTestExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,8 @@
 			children = (
 				21894E1C534D589E41F1D62F /* Pods-ThemisTest.debug.xcconfig */,
 				0D8BAACA600FB9F7E596D1CF /* Pods-ThemisTest.release.xcconfig */,
+				766E5FE35740241E7A61EA31 /* Pods-ThemisUXTestExample.debug.xcconfig */,
+				6F656D4EE3AF90D651D5E4BC /* Pods-ThemisUXTestExample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 			children = (
 				738D1E7F1ADBBEBB00661F4A /* libobjcthemis.a */,
 				7CB1E0091D5E4396D03A8C58 /* libPods-ThemisTest.a */,
+				617D61DEDC4B17BA4C1C05E7 /* libPods-ThemisUXTestExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,8 +160,8 @@
 		731624891ADB174200972A7A = {
 			isa = PBXGroup;
 			children = (
-				731624941ADB174200972A7A /* ThemisTest */,
-				731624AE1ADB174200972A7A /* ThemisTestTests */,
+				731624941ADB174200972A7A /* ThemisUXTestExample */,
+				731624AE1ADB174200972A7A /* ThemisUXTestExampleTests */,
 				731624931ADB174200972A7A /* Products */,
 				146D20CA7AD20E9D9A26C916 /* Pods */,
 				1F5F881BD0CD342D1E9B9E25 /* Frameworks */,
@@ -165,20 +171,20 @@
 		731624931ADB174200972A7A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				731624921ADB174200972A7A /* ThemisTest.app */,
-				731624AB1ADB174200972A7A /* ThemisTestTests.xctest */,
+				731624921ADB174200972A7A /* ThemisUXTestExample.app */,
+				731624AB1ADB174200972A7A /* ThemisUXTestExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		731624941ADB174200972A7A /* ThemisTest */ = {
+		731624941ADB174200972A7A /* ThemisUXTestExample */ = {
 			isa = PBXGroup;
 			children = (
 				73156E0C1ADBDF0800E3E520 /* Classes */,
 				731624951ADB174200972A7A /* Supporting Files */,
 				192EAE1C306187257C760ED9 /* Resources */,
 			);
-			path = ThemisTest;
+			path = ThemisUXTestExample;
 			sourceTree = "<group>";
 		};
 		731624951ADB174200972A7A /* Supporting Files */ = {
@@ -190,13 +196,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		731624AE1ADB174200972A7A /* ThemisTestTests */ = {
+		731624AE1ADB174200972A7A /* ThemisUXTestExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				731624B11ADB174200972A7A /* ThemisTestTests.m */,
+				731624B11ADB174200972A7A /* ThemisUXTestExampleTests.m */,
 				731624AF1ADB174200972A7A /* Supporting Files */,
 			);
-			path = ThemisTestTests;
+			path = ThemisUXTestExampleTests;
 			sourceTree = "<group>";
 		};
 		731624AF1ADB174200972A7A /* Supporting Files */ = {
@@ -210,9 +216,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		731624911ADB174200972A7A /* ThemisTest */ = {
+		731624911ADB174200972A7A /* ThemisUXTestExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 731624B51ADB174200972A7A /* Build configuration list for PBXNativeTarget "ThemisTest" */;
+			buildConfigurationList = 731624B51ADB174200972A7A /* Build configuration list for PBXNativeTarget "ThemisUXTestExample" */;
 			buildPhases = (
 				752A804A4446800FFB3ADCD7 /* Check Pods Manifest.lock */,
 				7316248E1ADB174200972A7A /* Sources */,
@@ -224,14 +230,14 @@
 			);
 			dependencies = (
 			);
-			name = ThemisTest;
+			name = ThemisUXTestExample;
 			productName = ThemisTest;
-			productReference = 731624921ADB174200972A7A /* ThemisTest.app */;
+			productReference = 731624921ADB174200972A7A /* ThemisUXTestExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		731624AA1ADB174200972A7A /* ThemisTestTests */ = {
+		731624AA1ADB174200972A7A /* ThemisUXTestExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 731624B81ADB174200972A7A /* Build configuration list for PBXNativeTarget "ThemisTestTests" */;
+			buildConfigurationList = 731624B81ADB174200972A7A /* Build configuration list for PBXNativeTarget "ThemisUXTestExampleTests" */;
 			buildPhases = (
 				731624A71ADB174200972A7A /* Sources */,
 				731624A81ADB174200972A7A /* Frameworks */,
@@ -242,9 +248,9 @@
 			dependencies = (
 				731624AD1ADB174200972A7A /* PBXTargetDependency */,
 			);
-			name = ThemisTestTests;
+			name = ThemisUXTestExampleTests;
 			productName = ThemisTestTests;
-			productReference = 731624AB1ADB174200972A7A /* ThemisTestTests.xctest */;
+			productReference = 731624AB1ADB174200972A7A /* ThemisUXTestExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -253,6 +259,7 @@
 		7316248A1ADB174200972A7A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TT;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Cossack Labs";
 				TargetAttributes = {
@@ -265,7 +272,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7316248D1ADB174200972A7A /* Build configuration list for PBXProject "ThemisTest" */;
+			buildConfigurationList = 7316248D1ADB174200972A7A /* Build configuration list for PBXProject "ThemisUXTestExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -278,8 +285,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				731624911ADB174200972A7A /* ThemisTest */,
-				731624AA1ADB174200972A7A /* ThemisTestTests */,
+				731624911ADB174200972A7A /* ThemisUXTestExample */,
+				731624AA1ADB174200972A7A /* ThemisUXTestExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -336,7 +343,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ThemisTest/Pods-ThemisTest-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ThemisUXTestExample/Pods-ThemisUXTestExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -358,7 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				731624B21ADB174200972A7A /* ThemisTestTests.m in Sources */,
+				731624B21ADB174200972A7A /* ThemisUXTestExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +374,7 @@
 /* Begin PBXTargetDependency section */
 		731624AD1ADB174200972A7A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 731624911ADB174200972A7A /* ThemisTest */;
+			target = 731624911ADB174200972A7A /* ThemisUXTestExample */;
 			targetProxy = 731624AC1ADB174200972A7A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -476,34 +483,26 @@
 		};
 		731624B61ADB174200972A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21894E1C534D589E41F1D62F /* Pods-ThemisTest.debug.xcconfig */;
+			baseConfigurationReference = 766E5FE35740241E7A61EA31 /* Pods-ThemisUXTestExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ThemisTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ThemisUXTestExampleTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/hdf/projects/themis-test/ios-project/themis/objcthemis/ios/lib",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ThemisUXTestExample;
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../Pods\"/**";
 			};
 			name = Debug;
 		};
 		731624B71ADB174200972A7A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D8BAACA600FB9F7E596D1CF /* Pods-ThemisTest.release.xcconfig */;
+			baseConfigurationReference = 6F656D4EE3AF90D651D5E4BC /* Pods-ThemisUXTestExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ThemisTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ThemisUXTestExampleTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/hdf/projects/themis-test/ios-project/themis/objcthemis/ios/lib",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ThemisUXTestExample;
 				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../Pods\"/**";
 			};
 			name = Release;
@@ -520,10 +519,9 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ThemisTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemisTest.app/ThemisTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemisUXTestExample.app/ThemisUXTestExample";
 			};
 			name = Debug;
 		};
@@ -535,17 +533,16 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ThemisTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemisTest.app/ThemisTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemisUXTestExample.app/ThemisUXTestExample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7316248D1ADB174200972A7A /* Build configuration list for PBXProject "ThemisTest" */ = {
+		7316248D1ADB174200972A7A /* Build configuration list for PBXProject "ThemisUXTestExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				731624B31ADB174200972A7A /* Debug */,
@@ -554,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		731624B51ADB174200972A7A /* Build configuration list for PBXNativeTarget "ThemisTest" */ = {
+		731624B51ADB174200972A7A /* Build configuration list for PBXNativeTarget "ThemisUXTestExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				731624B61ADB174200972A7A /* Debug */,
@@ -563,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		731624B81ADB174200972A7A /* Build configuration list for PBXNativeTarget "ThemisTestTests" */ = {
+		731624B81ADB174200972A7A /* Build configuration list for PBXNativeTarget "ThemisUXTestExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				731624B91ADB174200972A7A /* Debug */,
