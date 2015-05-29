@@ -37,7 +37,7 @@
 3. Have libressl / openssl + libssl-dev installed via 
    
    ```
-   brew instal openssl
+   brew install openssl
    ```
 
 4. Make with custom paths to force it look at the odd paths where brew installs openssl: 
