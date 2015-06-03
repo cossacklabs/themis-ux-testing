@@ -61,7 +61,7 @@
    mongod --config /usr/local/etc/mongod.conf
    ```
 
-7. Export DYLD path to libthemis.dyld. 
+7. Export DYLD path to libthemis.dyld (might be unnecessary in next release, left to be sure)
 
    ```
    set DYLD_FALLBACK_LIBRARY_PATH=/usr/lib/
