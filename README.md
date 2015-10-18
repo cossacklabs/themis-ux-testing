@@ -18,7 +18,7 @@ It contains:
 
 Read more details (with pictures!) in our blog post. 
 
-*TODO: URL needed*
+https://www.cossacklabs.com/02-usability-testing.html
 
 You will find a report about hackathon itself, problems we faced and results we achieved.
 
