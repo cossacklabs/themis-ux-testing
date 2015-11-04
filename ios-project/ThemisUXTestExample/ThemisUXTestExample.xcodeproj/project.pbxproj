@@ -225,6 +225,7 @@
 				7316248F1ADB174200972A7A /* Frameworks */,
 				731624901ADB174200972A7A /* Resources */,
 				9A078C251A561873552D1DC1 /* Copy Pods Resources */,
+				3EC7978F3A22AEDCDA0EB294 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -316,6 +317,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3EC7978F3A22AEDCDA0EB294 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ThemisUXTestExample/Pods-ThemisUXTestExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		752A804A4446800FFB3ADCD7 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TTServerMessaging.h"
-#import <skeygen.h>
+#import <objcthemis/skeygen.h>
 
 
 @interface AppDelegate ()

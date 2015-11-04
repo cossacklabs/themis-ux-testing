@@ -6,8 +6,8 @@
 #import "TTServerMessaging.h"
 #import "AFHTTPRequestOperationManager.h"
 #import "NSString+Random.h"
-#import "smessage.h"
-#import "skeygen.h"
+#import <objcthemis/skeygen.h>
+#import <objcthemis/smessage.h>
 
 
 static NSString * kBaseURL = @"http://127.0.0.1:8828";
@@ -31,7 +31,7 @@ static NSString * kUserDefaultsNameKey = @"kUserDefaultsNameKey";
 
 @property (nonatomic, readwrite, strong) NSString * name;
 
-@property (nonatomic, strong) SMessage * messageEncrypter;
+@property (nonatomic, strong) TSMessage * messageEncrypter;
 
 @end
 
@@ -68,15 +68,15 @@ static NSString * kUserDefaultsNameKey = @"kUserDefaultsNameKey";
 
 // 1a generate own public/private keys
 - (void)generateOwnKeys {
-    SKeyGen * keygenEC = [[SKeyGen alloc] init:(EC)];
+    TSKeyGen * keygenEC = [[TSKeyGen alloc] initWithAlgorithm:TSKeyGenAsymmetricAlgorithmEC];
     
     if (!keygenEC) {
         NSLog(@"%s Error occured while initializing object keygenEC", sel_getName(_cmd));
         return;
     }
     
-    self.privateKey = [keygenEC getPrivKey];
-    self.publicKey = [keygenEC getPubKey];
+    self.privateKey = keygenEC.privateKey;
+    self.publicKey = keygenEC.publicKey;
 }
 
 
@@ -133,7 +133,7 @@ static NSString * kUserDefaultsNameKey = @"kUserDefaultsNameKey";
         self.serverPublicKey = [[NSData dataWithBytes:kServerPublicKey length:sizeof(kServerPublicKey) - 1] mutableCopy];
     }
     if (!self.messageEncrypter) {
-        self.messageEncrypter = [[SMessage alloc] initWithPrivateKey:self.privateKey peerPublicKey:self.serverPublicKey];
+        self.messageEncrypter = [[TSMessage alloc] initInEncryptModeWithPrivateKey:self.privateKey peerPublicKey:self.serverPublicKey];
     }
 }
 
@@ -144,8 +144,8 @@ static NSString * kUserDefaultsNameKey = @"kUserDefaultsNameKey";
         [self setupMessageEncrypter];
     }
     NSError * error;
-    NSData * encryptedMessage = [self.messageEncrypter wrap:[message dataUsingEncoding:NSUTF8StringEncoding]
-                                                      error:&error];
+    NSData * encryptedMessage = [self.messageEncrypter wrapData:[message dataUsingEncoding:NSUTF8StringEncoding]
+                                                          error:&error];
     if (error) {
         NSLog(@"ERROR in encrypting message %@", error);
         return nil;
@@ -212,7 +212,8 @@ static NSString * kUserDefaultsNameKey = @"kUserDefaultsNameKey";
     NSError * error;
     
     [self setupMessageEncrypter];
-    NSData * decryptedMessage = [self.messageEncrypter unwrap:base64Data error:&error];
+    
+    NSData * decryptedMessage = [self.messageEncrypter unwrapData:base64Data error:&error];
     if (error) {
         NSLog(@"ERROR in decrypting message %@", error);
         return nil;
